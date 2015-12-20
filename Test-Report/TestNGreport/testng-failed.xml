@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.quickr.Base">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.quickr.Base -->
+      <class name="com.quickr.AddPost">
+        <methods>
+          <include name="add_new_post"/>
+        </methods>
+      </class> <!-- com.quickr.AddPost -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
